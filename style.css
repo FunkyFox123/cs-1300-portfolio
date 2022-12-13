@@ -222,11 +222,7 @@ body {
     width: 60%;
 }
 
-@media screen and (max-width: 800px) {
-
-    .navbar-item-container {
-        display: none;
-    }
+@media screen and (max-width: 1000px) {
 
     .projects-item {
         width: 100%;
@@ -238,6 +234,13 @@ body {
 
     .text-container {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .navbar-item-container {
+        display: none;
     }
 }
 
@@ -258,7 +261,7 @@ body {
 .contact-me-button {
     border: none;
     background-color: var(--main-background-color);
-    width: 5%;
+    width: 1.7rem;
     padding-left: 0;
 }
 
